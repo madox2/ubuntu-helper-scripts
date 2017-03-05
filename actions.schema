@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/type</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/type</applyto>
+      <type>string</type>
+      <default>Action</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/iversion</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/iversion</applyto>
+      <type>int</type>
+      <default>3</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/items</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/items</applyto>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[profile-zero]</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/label</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/label</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>Decode subtitles</default>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/toolbar-label</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/toolbar-label</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>Decode subtitles</default>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/desc-name</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/profile-zero/desc-name</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>Default profile</default>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/path</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/profile-zero/path</applyto>
+      <type>string</type>
+      <default>python</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/parameters</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/profile-zero/parameters</applyto>
+      <type>string</type>
+      <default>~/scripts/decode_subtitles.py %f</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/execution-mode</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/profile-zero/execution-mode</applyto>
+      <type>string</type>
+      <default>DisplayOutput</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/basenames</key>
+      <applyto>/apps/nautilus-actions/configurations/1abb70e6-9c2b-4689-ad68-7aa6d82d1ec8/profile-zero/basenames</applyto>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[*.srt]</default>
+    </schema>
+  </schemalist>
+</gconfschemafile>
